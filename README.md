@@ -34,10 +34,7 @@ The project is hosted on Heroku.
 For live preview, <strong><a href='https://travilgo.herokuapp.com/'>Click Here</a></strong>.
 
 ## Demonstration 🤹‍♂️
-<img src='https://s6.gifyu.com/images/ezgif-5-2265e3d537fe.gif' alt='Vacations project'>
-
-<img src='https://s6.gifyu.com/images/ezgif-5-3741b41da190.gif' alt='Vacations project'>
-
+### Admin Panel:
 <img src='https://s6.gifyu.com/images/ezgif-6-fb0a3fb53d8d.gif' alt='Vacations project'>
 
 <img src='https://s6.gifyu.com/images/ezgif-5-b6eed07fc9db.gif' alt='Vacations project'>
@@ -47,3 +44,8 @@ For live preview, <strong><a href='https://travilgo.herokuapp.com/'>Click Here</
 <img src='https://s6.gifyu.com/images/ezgif-5-9986ff0f9eae.gif' alt='Vacations project'>
 
 <img src='https://s6.gifyu.com/images/ezgif-5-d5e6f7722297.gif' alt='Vacations project'>
+
+### User Panel:
+<img src='https://s6.gifyu.com/images/ezgif-5-2265e3d537fe.gif' alt='Vacations project'>
+
+<img src='https://s6.gifyu.com/images/ezgif-5-3741b41da190.gif' alt='Vacations project'>
