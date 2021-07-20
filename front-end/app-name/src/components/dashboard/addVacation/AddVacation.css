@@ -1,0 +1,67 @@
+.add-header {text-align: center; }
+
+.add-header h1 { font-size: 170%; color: rgba(184, 183, 183, 0.9);}
+
+.add-header p {
+  padding: 20px 0;
+  font-size: 100%;
+  color: rgba(184, 183, 183, 0.9);
+}
+
+.add-vacation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85vh;
+  width: 96%;
+  border: 2px dashed #ccc;
+  background-color: rgba(184, 183, 183, 0.1);
+}
+
+.add-vacation-container i { 
+  font-size: 400%;
+  color: rgba(184, 183, 183, 0.4);
+}
+
+.add-vacation-container .add-button-box button {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 70%;
+  background-color: rgb(110, 121, 248);
+  color: #fff;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.add-vacation-container .add-button-box button:hover { background-color: #606cfc; }
+
+.add-vacation-container .msg-box {
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  padding: 5px;
+  border-radius: 15px;
+  z-index: 5;
+}
+
+.add-vacation-container .err-msg,
+.add-vacation-container .ok-msg {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.add-vacation-container .err-msg  {
+  border: 2px solid #c0392b;
+  color: #7e160a;
+  background-color: #e74c3c;
+}
+
+.add-vacation-container .ok-msg {
+  border: 2px solid #27ae60;
+  color: #146134;
+  background-color: #2ecc71;
+}

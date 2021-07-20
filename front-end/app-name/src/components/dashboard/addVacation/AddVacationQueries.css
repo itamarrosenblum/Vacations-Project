@@ -1,0 +1,19 @@
+@media only screen and (max-width: 690px) {
+    .add-vacation-container { 
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .add-vacation-container .message-box {   
+        bottom: 85px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (device-aspect-ratio: 40/71) {
+    .add-vacation-container .message-box { bottom: 70px; }
+}

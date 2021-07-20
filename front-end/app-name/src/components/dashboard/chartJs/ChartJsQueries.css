@@ -1,0 +1,11 @@
+@media only screen and (max-width: 690px) {
+    .analytics-chart { padding: 0 10px; }
+}
+
+/* iPhone 5 */
+@media only screen and (device-aspect-ratio: 40/71) {
+    .analytics-chart { 
+        width: 100vw;
+        height: 50vh;
+    }
+ }

@@ -1,0 +1,111 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container .login-header { margin-right: 2%; }
+
+.login-container .login-header h1 { 
+    margin-bottom: 15px;
+    font-size: 300%;
+    color: #F39C12; 
+}
+
+.login-container .login-header p {
+    width: 80%;
+    font-size: 135%;
+    color: #5A6175
+}
+
+.login-container .form-header h2 {
+    font-size: 140%;
+    text-align: center;
+    color: #5A6175;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 8px;
+    margin-left: 2%;
+    width: 350px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+}  
+.login-form form,
+.login-form form div {
+    padding: 0 5px;
+    width: 100%;
+}
+
+.login-form form div { margin: 20px 0; }
+
+.login-form input,
+.login-form button { width: 100%; }
+
+.login-form input {
+    padding: 15px 10px;
+    border: 1px solid #E8E7E9;
+    border-radius: 5px;
+    outline: none;
+    font-size: 85%;
+}
+
+.login-form input:focus { box-shadow: 0px 0px 5px #166FE5; }
+
+.login-form button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 60%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer; 
+}
+
+.login-form .btn-login { background-color: #1877f2; }
+
+.login-form .btn-login:hover { background-color: #166FE5; }
+
+.login-form .btn-signup { 
+    background-color: #FAF6F4;
+    color: #333; 
+}
+
+.login-form .btn-signup:hover { opacity: 0.8; }
+
+.horizontal-line {
+    text-align: center;
+    font-size: 85%;
+    color: #dddad8;
+}
+
+.horizontal-line::before,
+.horizontal-line::after {
+    content: " ";
+    position: relative;
+    top: 0;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 1px;
+    background-color: #dddad8;
+}
+.horizontal-line::before { right: 5%; }
+
+.horizontal-line::after { left: 5%; }
+
+.error-message-box p {
+    font-size: 70%;
+    text-align: center;
+    color: rgba(248, 56, 56, 0.9);
+}
+
+.routing-box { margin-bottom: 20px; }

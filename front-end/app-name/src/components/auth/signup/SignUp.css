@@ -1,0 +1,112 @@
+.signup-container,
+.signup-container .signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signup-container { height: 100vh; }
+
+.signup-container .signup-form {
+    flex-direction: column;
+    padding: 8px;
+    margin-left: 2%;
+    width: 350px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+}
+
+.signup-container .signup-header h1,
+.signup-container .signup-header h2 { text-align: center; }
+
+.signup-container .signup-header h1 { 
+    margin-bottom: 15px;
+    font-size: 130%;
+    color: #F39C12; 
+}
+
+.signup-container .signup-header h2 {
+    font-size: 220%;
+    color: #5A6175;
+}
+
+.signup-container .signup-form form,
+.signup-container .signup-form form div { width: 100%; }
+
+.signup-container .signup-form form div { 
+    margin: 20px 0;
+    padding: 0 5px;
+}
+
+.signup-container .routing-box { margin-bottom: 20px; }
+
+.signup-container .signup-form input,
+.signup-container .signup-form button {
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.signup-container .signup-form input {
+    border: 1px solid #E8E7E9;
+    outline: none;
+    border-radius: 5px;
+    font-size: 85%;
+}
+
+.signup-container .signup-form input:focus { box-shadow: 0px 0px 5px #166FE5; }
+
+.signup-container .signup-form button {
+    border: none;
+    border-radius: 50px;
+    font-size: 60%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer; 
+}
+
+.signup-container .signup-form .btn-signup { background-color: #1877f2; }
+
+.signup-container .signup-form .btn-signup:hover { background-color: #166FE5; }
+
+.signup-container .signup-form .btn-login { 
+    display: block;
+    margin: 0 auto;
+    background-color: #FAF6F4;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #333;
+}
+.signup-container .signup-form .btn-login:hover { opacity: 0.8; }
+
+.signup-container .horizontal-line {
+    text-align: center;
+    font-size: 85%;
+    color: #dddad8;
+}
+
+
+.signup-container .horizontal-line::before,
+.signup-container .horizontal-line::after {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 0;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 1px;
+    background-color: #dddad8;
+}
+
+.signup-container .horizontal-line::before { right: 5%; }
+
+.signup-container .horizontal-line::after { left: 5%; }
+
+.signup-container .error-message-box p {
+    text-align: center;
+    font-size: 70%;
+    color: rgba(248, 56, 56, 0.9);
+}
