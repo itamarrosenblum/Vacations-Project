@@ -38,6 +38,8 @@ For live preview, <strong><a href='https://travilgo.herokuapp.com/'>Click Here</
 
 <img src='https://s6.gifyu.com/images/ezgif-5-3741b41da190.gif' alt='Vacations project'>
 
+<img src='https://s6.gifyu.com/images/ezgif-6-fb0a3fb53d8d.gif' alt='Vacations project'>
+
 <img src='https://s6.gifyu.com/images/ezgif-5-b6eed07fc9db.gif' alt='Vacations project'>
 
 <img src='https://s6.gifyu.com/images/ezgif-5-abb8bbb6f864.gif' alt='Vacations project'>
