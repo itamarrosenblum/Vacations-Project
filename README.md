@@ -1,4 +1,5 @@
 # Vacations Tag - Single Page Web Application (Full Stack Project)
+<img src='https://i.imgur.com/ZrGbIv4.png' alt='Vacations Project'>
 
 <img src='https://i.imgur.com/7OpU7pZ.png' alt='Vacations Project'>
 
