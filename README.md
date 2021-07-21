@@ -10,7 +10,7 @@
 
 ## Description 📝
 #### Responsive single page web application that offers vacations.
-- Users can follow or unfollow vacation.
+- Users can follow or unfollow vacations.
 - Users can search for vacation.
 - Admin can add a new vacation.
 - Admin can edit an existing vacation.
